@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOP — KRIOS.store</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span>●</span> CATALOG REDIRECT &nbsp;|&nbsp; <span>42</span> collections available &nbsp;|&nbsp; Updated: <span>live</span>
+</div>
+
+<nav>
+  <a class="nav-logo" href="#">SHOP<span>.it</span></a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">/catalog</a></li>
+    <li><a href="">/digital</a></li>
+    <li><a href="#">/physical</a></li>
+    <li><a href="#">/collections</a></li>
+  </ul>
+  <div class="nav-right">
+    <input class="search-box" placeholder="filter collections..." id="searchInput" />
+    <button class="cart-btn" id="cartBtn">cart [0]</button>
+  </div>
+</nav>
+
+<div class="catalog-header">
+  <div class="catalog-title-section">
+    <div class="prompt-line">catalog.redirect() — explore all collections</div>
+    <h1 class="catalog-title">
+      <span class="hl">/shop</span> inventory<br>
+      <span class="catalog-subtitle">select a category to browse products</span>
+    </h1>
+  </div>
+  <div class="catalog-stats">
+    <div class="stat-pill"><span class="stat-num">24</span> products</div>
+    <div class="stat-pill"><span class="stat-num">8</span> categories</div>
+    <div class="stat-pill"><span class="stat-num">4.9★</span> rating</div>
+  </div>
+</div>
+
+<div class="redirect-grid" id="redirectGrid">
+  <!-- Categories will be injected via JS -->
+</div>
+
+<div class="featured-banner">
+  <div class="featured-content">
+    <div class="featured-badge">featured collection</div>
+    <h3>Digital Essentials 2025</h3>
+    <p>Notion, Figma, Procreate — all templates 30% off</p>
+    <button class="featured-btn" id="featuredBtn">explore collection →</button>
+  </div>
+  <div class="featured-visual">
+    <div class="code-block">
+      <iframe src="1.webp" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>      
+    </div>
+  </div>
+</div>
+
+<div class="quick-nav">
+  <div class="quick-nav-header">
+    <span>quick navigation</span>
+    <span class="key-hint">[press 1-8]</span>
+  </div>
+  <div class="quick-links" id="quickLinks">
+    <!-- Quick links will be generated -->
+  </div>
+</div>
+
+<footer>
+  <span>catalog.SHOP.it — redirect gateway &nbsp;|&nbsp; all collections updated live</span>
+  <div>
+    <a href="#">privacy</a><a href="#">shipping</a><a href="#">refunds</a><a href="#">contact</a>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="shop.js"></script>
+</body>
+</html>
