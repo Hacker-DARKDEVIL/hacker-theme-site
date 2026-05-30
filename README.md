@@ -7,7 +7,7 @@
 
 ## Preview
 
-[!CLICK HERE FOR VISIT(image-link.png)](https://hacker-darkdevil.github.io/hacker-theme-site/shop.html#)>
+[!CLICK HERE FOR VISIT](https://hacker-darkdevil.github.io/hacker-theme-site/shop.html#)>
 
 
 ---
